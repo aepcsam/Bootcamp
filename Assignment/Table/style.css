@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400;1,500;1,1000&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto',sans-serif;
+scroll-behavior: smooth;
+overflow-x: auto;
+}
+
+
+header{
+background-color: #810e0e;
+color: white;
+text-align: center;
+}
+span{
+color: #ff8800;
+}
+h3{
+font-weight:bolder;
+font-size: 13px;
+}
+
+p{
+font-weight: 500;
+font-size: 13px;
+word-spacing: 1;
+}
+
+    body{
+        background-color: rgba(255,255,220,255);
+    }
+    table,tr,td{
+        
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    td:nth-child(1){
+        width: 60px;
+        padding: 5px;
+        
+    }
+    td:nth-child(2){
+        width: 700px;
+        /* background-color: aqua; */
+    }
+    td:nth-child(3){
+        width:400px;
+        /* background-color: beige; */
+    }
+    td:nth-child(4){
+        width: 120px;
+        /* background-color: blanchedalmond; */
+    }
+
+    .pan_name{
+        display: flex;
+                    
+    }
+    .pan_name,div{
+        margin-right: 50px;
+    }
+    .pan_name,div:last-child{
+        margin-right: 0;
+    }
+    .pan_print{
+        display: flex;
+    }
+
+   .blink{
+       animation: blink .5s infinite;
+       
+   }
+   @keyframes blink {
+       0%{ color: blue;}
+
+       
+       100% { color: green;}
+       
+   }
+   .pan_table_data{
+    display: flex;
+   }
+
+   .date{
+       display: flex;
+       margin-right: 0;
+   }
+   .date,div{
+       margin: 0;
+   }
+   #state{
+       width: 170px;
+   }
+   .pin{
+       width: 100px;
+   }
+    
+   .country{
+       width: 400px;
+   }
+
+   .aadhar_no{
+       font-weight: bold;
+       color: blue;
+   }
+   .enroll{
+       width: 600px;
+   }
+
+.dd{
+    margin-left: 130px;
+}
+
+
+.form_post{
+    font-size: 13px;
+    margin: 3px 0px 3px 8px;
+
+}
+
+.photo{
+    margin: 3px 0px 3px 0;
+
+}
+
+#up_photo{
+    margin: 0px 230px 0px 230px;
+
+}
+#up_sig{
+    margin: 0px 10px 0px 20px;
+
+}
+.docum{
+    margin: 3px 0px 3px 0;
+}
+#int{
+    margin: 0px 600px 0px 205px;
+}
+#fetch{
+    margin: 3px 0px 3px 0;
+    width: 150px;
+    color: blue;
+    cursor: pointer;
+}
+
+
+.up_photo{
+    margin-left: 160px;
+}
+
+.up_signature{
+    margin: 3px 0 3px 134px;
+
+}
+
+.doc_up{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    
+}
+#document{
+    margin-left: 127px;
+}
+#submit{
+    margin-left: 400px;
+}
+
+.for_font{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 3px 0 3px 0;
+}
+
+
+
