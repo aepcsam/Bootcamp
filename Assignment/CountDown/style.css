@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+#count{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 40vh;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.text{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
