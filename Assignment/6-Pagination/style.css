@@ -1,0 +1,206 @@
+/* html, 
+body {
+  font: 100%/1.5 Verdana, sans-serif
+}
+#wrapper {
+  margin: 0 auto;
+  display: block;
+  width: 960px;
+}
+.page-header {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: normal;
+  border-bottom: 1px solid #ddd;
+  margin: 30px 0
+}
+#pagination {
+  margin: 0;
+  padding: 0;
+  text-align: center
+}
+#pagination li {
+  display: inline
+}
+#pagination li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #000
+}
+*/
+
+
+/* Active and Hoverable Pagination */
+
+
+/* 
+#pagination li a {
+  border-radius: 5px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s
+    
+}
+#pagination li a.active {
+  background-color: #4caf50;
+  color: #fff
+}
+#pagination li a:hover:not(.active) {
+  background-color: #ddd;
+} 
+*/
+
+
+/* border-pagination */
+
+
+/* 
+.b-pagination-outer {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  display: flex
+}
+#border-pagination {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+
+}
+#border-pagination li {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 500px;
+
+}
+#border-pagination li a {
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  float: left;
+
+}
+#border-pagination li a {
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s
+}
+#border-pagination li a.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+#border-pagination li a:hover:not(.active) {
+  background: #ddd;
+} */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    margin: inherit;
+    padding: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 1100px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead tr,
+table tfoot tr {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+table tbody tr {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+table tbody tr:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+table tr>th {
+    text-align: left;
+}
+
+table tr>th,
+tr>td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px 5px;
+    cursor: s;
+}
+
+#pagination {
+    display: block;
+    padding: 30px;
+    text-align: center;
+    width: 1100px;
+}
+
+#pagination>a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 0;
+    background: rgba(0, 0, 0, 0.08);
+    color: #000;
+    font-weight: 600;
+}
+
+#pagination>a:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#pagination>a:hover {
+    background: rgba(0, 0, 0, 0.03);
+    background-color: aqua;
+    color: #FB3C00;
+}
+
+#tabs {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+.first:hover,
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.btn6:hover,
+.btn7:hover,
+.btn8:hover,
+.btn9:hover,
+.btn10:hover,
+.last:hover {
+    background-color: hsl(283, 69%, 61%);
+    cursor: pointer;
+    border-radius: 5px;
+}
