@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+
+
+.nav{
+    background-color: #f5e9f7;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+.inputBox{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    /* background-color: #f8f8f8; */
+    background-image: url('../../public/qatar1.jpg');
+
+       
+}
+
+.inputBox__field{
+    /* padding: 10px; */
+    background-color: white;
+    text-align: center;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow:0 5px 6px rgba(0,0,0,0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
+    padding-top: 0px;
+    
+}
+
+.inputBox__field >h2{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.inputBox__field >form{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.inputBox__field >img{
+    width: 10%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.inputBox__field >form > button{
+    margin-top: 20px;
+    text-transform: inherit !important;
+    background-color: #0a8d48;
+    color: white;
+    margin-bottom: 20px;
+}
+
