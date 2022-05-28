@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Molle:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    
+    margin: auto;
+    max-width: 1100px;
+    font-family: 'Crimson Text', serif;
+}
+
+.mainbox
+{
+    background-color:  #330033;
+    border: 2px solid white;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 10px;
+    outline: 5px solid #330033;
+}
+.scroll{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    letter-spacing: -5px;
+}
+
+.a-computer-mouse{
+    margin-bottom: 10px; 
+}
+.scroll header{
+    position: relative;
+    top: -50px;
+    background-color: #330033;
+    width: 200px;
+    left: 33.3%;
+    font-family: 'Roboto', serif;
+    font-weight: 800;
+}
+.longscroll{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('./hills.jpeg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -100px;
+    
+}
+.storytelling{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+    background-image:url('story.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -142px;
+    
+}
+
+
+
+
+
+.device{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('./mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -150px;
+}
+.messaging{
+    background-color: rgb(226, 81, 81);
+    clip-path: polygon(100% 0,100% 36%,100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    margin-top: -54px;
+    background-image:url('pink.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -165px;
+}
+.goal
+{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('sea.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -165px;
+}
+.searchengine{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('loading.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -165px;
+}
+
+.slower
+{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('seo.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -165px;
+    opacity: 0.75;
+}
+.awakard
+{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('./navi.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -165px;
+}
+
+
+header{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    
+}
+.scroll{
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 4px;
+    color: #FFCCCC;
+    font-family: 'Crimson Text', serif;
+}
+.scroll h1::first-letter{
+   
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 80px;
+}
+
+.scroll h5{
+
+    letter-spacing: 6px;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+ .visual{
+     font-size: 16px;
+     margin-top: 100px;
+     text-align: center;
+     letter-spacing: 5px;
+     color: black;
+     font-family: 'Crimson Text', serif;
+ }
+ .longscroll h3::first-letter{
+    padding: 40px;
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 100px;
+}
+.longscroll h2{
+    font-size: 30px;
+    margin-left: 300px;
+    
+}
+.longscroll p{
+    margin-left: 300px;
+    padding: 10px;
+    font-weight: 800;
+    width: 600px;
+
+}
+.storytelling h4{
+    color:white;
+    margin-top: 80px;
+    padding: 55px;
+    font-size: 30px;
+    text-align: center;
+}
+.storytelling h4::first-letter {
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 100px;
+    
+    
+}
+.storytelling p{
+    
+    margin-left: 130px;
+    font-size: 20px;
+    color:white;
+    font-weight: 800;
+    width: 600px;
+     
+}
+.device h4{
+    color:black;
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    padding: 55px;
+    font-family: 'Crimson Text', serif;
+}
+.device h4::first-letter {
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 100px;
+    color: black;
+    
+}
+.device h3{
+    
+    font-size: 20px;
+    color: black;
+    margin-left: 130px;
+    width: 600px;
+
+}
+.device p{
+    margin-left: 150px;
+    margin-top: 5px;
+    font-weight: 800;
+    width: 600px;
+}
+.messaging h3{
+    color:black;
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Crimson Text', serif;
+}
+.messaging h3::first-letter{
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 110px;
+    color: black;
+}
+.messaging h2{
+    font-size: 20px;
+    color: black;
+    margin-left: 130px;
+
+}
+.messaging p{
+    margin-left: 150px;
+    margin-top: 5px;
+    font-weight: 800;
+    width: 600px;
+}
+
+.goal h3{
+    color:black;
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Crimson Text', serif;
+}
+.goal h3::first-letter{
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 110px;
+    color: black;
+}
+.goal h2{
+    font-size: 30px;
+    color: black;
+    margin-left: 130px;
+
+}
+.goal p{
+    margin-left: 150px;
+    margin-top: 5px;
+    font-weight: 800;
+    width: 600px;
+}
+
+.searchengine h3{
+    color:black;
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Crimson Text', serif;
+}
+.searchengine h3::first-letter{
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 110px;
+    color: black;
+}
+.searchengine h2{
+    font-size: 30px;
+    color: black;
+    margin-left: 130px;
+
+}
+.searchengine p{
+    margin-left: 150px;
+    margin-top: 5px;
+    font-weight: 800;
+    width: 600px;
+}
+
+.slower h3{
+    color:black;
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center; 
+    padding-top: 50px;
+    font-family: 'Crimson Text', serif;
+}
+.slower h3::first-letter{
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 110px;
+    color: black;
+}
+.slower p{
+    width: 600px;
+    margin-left: 350px;
+    margin-top: -25px;
+    font-weight: 800; 
+}
+
+
+.awakard h3{
+    color:black;
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center; 
+    padding-top: 40px;
+    font-family: 'Crimson Text', serif;
+}
+.awakard h3::first-letter{
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 110px;
+    color: black;
+   
+}
+.awakard p{
+    width: 600px;
+    margin-left: 350px;
+    margin-top: -25px;
+    font-weight: 800; 
+}
+.contentbox{
+  display: flex;
+  flex-direction: row;
+  background-color:#B2BEB5;
+  width: 100%;
+  height: 250px;
+  font-size:15px;
+  /* clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%); */
+  margin-top: -50px;
+  overflow: hidden;
+  
+}
+.contentbox p{
+    margin-top: 30px;
+   margin-left: 40px;
+   font-size: 18px;
+   padding-top: 45px;
+   font-weight: 800;
+   width: 600px;
+  
+}
