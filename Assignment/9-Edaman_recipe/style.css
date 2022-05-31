@@ -10,3 +10,7 @@
 .card {
     margin: 10px;
 }
+
+td{
+    padding: 0px 15px 5px 0;
+}
