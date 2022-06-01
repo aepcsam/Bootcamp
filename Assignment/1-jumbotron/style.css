@@ -1,0 +1,168 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.line{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.container{
+    width: 600px;
+    height: 100vh;
+    margin: auto;
+    background-color: snow;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    background-color: #f9f6f2;
+}
+
+nav .navlogo p{
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+nav .logo h1{
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+}
+
+nav .nav-bar ul{
+   
+    display: flex;
+    list-style: none;
+}
+nav .nav-bar ul li{
+    text-decoration: none;   
+}
+nav .nav-bar ul li .active{
+    background-color: #096ae8;
+    color: white;
+    border-radius: 5px;
+}
+nav .nav-bar ul li a{
+    padding: 8px;
+    text-decoration: none;
+    color: #096ae8;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: show;
+    border: none;
+}
+
+
+
+
+
+
+.section{
+    width: 600px;
+    height: auto;
+    background-color: rgba(212, 213, 234, 0.86);
+    padding: 30px 20px 30px 20px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px 0 5px 0;
+}
+
+.section .heading h1{
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.section .heading-content p{
+    text-align: center;
+}
+
+.section .btn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.section .btn .sign{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    margin: 15px 0 10px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00C851;
+    cursor: pointer;
+}
+.section .btn .modal{
+    width: 250px;
+    height: 40px;
+    padding: 5px;
+    margin: 10px 0 15px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #096ae8;
+    cursor: pointer;
+}
+
+/* Sub Header */
+.subheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f9f6f2;
+    margin: 10px 0 10px 0;
+    
+}
+
+.subhead {
+
+    width: 296px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.subhead h3{
+
+    font-weight: 400;
+    margin: 5px;
+ }
+.subhead p{
+    margin: 5px;
+   font-weight: 500;
+}
+footer{
+    margin: 20px 0 20px -300px;
+}
