@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather -TODAY-</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Weather Report</h1>
+    </header>
+    <div class="container">  
+        <div class="weather-title">
+            <p>View the curent for your city.</p>
+        </div>
+        <form action="/" method="post">
+            <input type="text" name="city" class="ghost-input" placeholder="Enter your City.." />
+        </form>
+
+        <div class="result">
+            <% if(temp !== null) {%>
+                <div class="temp">
+                    <h1 class="tempcelsius">Temp : <%= temp %>&deg;</h1>
+                    <div class="temp_maxmin">
+                        <p class="tempminmax">Temp-Max : <%= temp_max %>&deg; </p>
+                        <p class="tempminmax">Temp-Min :<%= temp_min %>&deg;</p>
+                    </div>
+                </div>
+            <% }%>
+            
+
+            <%if(icon !== null){ %>
+                <div class="icons-desc">
+                    <img class="icon" src="http://openweathermap.org/img/wn/<%=icon%>.png" alt="">
+                    <p><%= des %></p>
+                </div>
+            <% } %>
+            
+            <% if(windSpeed !== null) {%>
+                <div class="wind-hum">
+                    <p class="winddegree">Wind Speed : <%= windSpeed %></p>
+                    <p class='winddegree'>Humidity : <%= humidity %>&deg;</p>
+                </div>
+                <% } %>
+            
+            <h1 id="city"><%= city %></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
